@@ -31,9 +31,9 @@ const App = () => {
                 <Routes>
                     <Route exact path="/" element={<RedirectToHomepage />} />
                     <Route path="/React-ERPSystem" element={<Dashboard />} />
-                    <Route path="/products" element={<ProductsManagement />} />
-                    <Route path="/orders" element={<OrdersManagement />} />
-                    <Route path="/calendar" element={<OrdersCalendar />} />
+                    <Route path="/React-ERPSystem/products" element={<ProductsManagement />} />
+                    <Route path="/React-ERPSystem/orders" element={<OrdersManagement />} />
+                    <Route path="/React-ERPSystem/calendar" element={<OrdersCalendar />} />
                 </Routes>
             </div>
         </Router>
