@@ -21,7 +21,7 @@ const App = () => {
                 </nav>
 
                 <Routes>
-                    <Route exact path="/" element={<Dashboard />} />
+                    <Route exact path="/React-ERPSystem" element={<Dashboard />} />
                     <Route path="/products" element={<ProductsManagement />} />
                     <Route path="/orders" element={<OrdersManagement />} />
                     <Route path="/calendar" element={<OrdersCalendar />} />
