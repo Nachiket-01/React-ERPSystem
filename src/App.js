@@ -22,9 +22,9 @@ const App = () => {
                 <nav>
                     <ul>
                         <li><Link to="/React-ERPSystem">Dashboard</Link></li>
-                        <li><Link to="/products">Manage Products</Link></li>
-                        <li><Link to="/orders">Manage Orders</Link></li>
-                        <li><Link to="/calendar">Orders Calendar</Link></li> 
+                        <li><Link to="/React-ERPSystem/products">Manage Products</Link></li>
+                        <li><Link to="/React-ERPSystem/orders">Manage Orders</Link></li>
+                        <li><Link to="/React-ERPSystem/calendar">Orders Calendar</Link></li> 
                     </ul>
                 </nav>
 
