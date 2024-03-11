@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+/* app.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff; /* Updated background color to white */
+  font-size: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background-color: rgba(255, 255, 255); /* Semi-transparent blue background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 15px 0; /* Increased top and bottom padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Slightly larger shadow */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+li {
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: #000; /* Updated text color to black */
+  font-size: 20px; /* Adjusted font size */
+  transition: color 0.3s ease; /* Smooth color transition */
+  font-weight: bold; /* Bold font weight */
+}
+
+a:hover {
+  color: #096f76; /* Hover color - gray */
+}
+
+/* Optional: Add styles for active link */
+a.active {
+  font-weight: bold;
+}
+
+/* Optional: Add styles for the page content below the navbar */
+main {
+  margin-top: 120px; /* Adjusted margin-top for the larger navbar */
+  padding: 30px; /* Increased padding */
+  text-align: center;
 }

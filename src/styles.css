@@ -1,0 +1,39 @@
+/* styles.css */
+.dashboard {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.metric {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.actions a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products-management,
+.orders-management,
+.orders-calendar {
+    text-align: center;
+    margin-top: 20px;
+}
+

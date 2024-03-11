@@ -1,0 +1,74 @@
+.orders-calendar {
+    max-width: 100%; /* Make it full width */
+    margin: 0;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased shadow effect */
+}
+
+.orders-calendar h2 {
+    margin-top: 0;
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker text color */
+    font-size: 24px; /* Slightly reduced font size */
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for days of the week */
+    gap: 20px; /* Increased gap between calendar items */
+}
+
+.calendar-day {
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; /* Smooth transform animation */
+    text-align: center; /* Center align the date */
+}
+
+.calendar-day:hover {
+    background-color: #4CAF50; /* Green background color on hover */
+    color: #fff; /* White text color on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.order-details {
+    margin-top: 40px; /* Increased margin from the calendar */
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Increased shadow effect */
+    animation: slideIn 0.5s ease-in-out; /* Slide in animation */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.order-details h4 {
+    margin-bottom: 20px; /* Increased margin between headings */
+    color: #333; /* Darker text color */
+    font-size: 20px; /* Reduced font size */
+    text-align: center; /* Center the heading */
+}
+
+.order-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-details ul li {
+    margin-bottom: 10px; /* Increased margin between list items */
+    color: #555; /* Slightly lighter text color */
+    text-align: center; /* Center align list items */
+}

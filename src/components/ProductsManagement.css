@@ -1,0 +1,95 @@
+/* ProductsManagement.css */
+
+.products-management {
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-width: 100%; /* Ensure table doesn't overflow its container */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px; /* Reduced padding for better mobile display */
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.add-product-form {
+    display: none; /* Initially hide the form */
+}
+
+.add-product-form.show {
+    display: block; /* Display the form when the "Add Record" button is clicked */
+}
+
+.add-product-form input[type="text"],
+.add-product-form input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-product-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-product-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+    .products-management {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 6px; /* Reduced padding for better mobile display */
+        font-size: 14px; /* Reduced font size for better mobile display */
+    }
+
+    .add-product-form input[type="text"],
+    .add-product-form input[type="number"] {
+        font-size: 14px; /* Reduced font size for better mobile display */
+    }
+
+    .add-product-form button[type="submit"] {
+        padding: 12px 24px; /* Adjusted padding for better mobile display */
+    }
+}
