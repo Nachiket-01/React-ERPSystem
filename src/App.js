@@ -1,11 +1,19 @@
-// App.js
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, Link, Navigate } from 'react-router-dom';
 import Dashboard from './components/Dashboard';
 import ProductsManagement from './components/ProductsManagement';
 import OrdersManagement from './components/OrdersManagement';
 import OrdersCalendar from './components/OrdersCalendar';
-import './App.css'; 
+import './App.css';
+
+// Custom component to redirect to homepage
+const RedirectToHomepage = () => {
+  useEffect(() => {
+    window.location.href = '/React-ERPSystem'; // Redirect to homepage
+  }, []);
+
+  return null;
+};
 
 const App = () => {
     return (
@@ -21,7 +29,8 @@ const App = () => {
                 </nav>
 
                 <Routes>
-                    <Route exact path="/React-ERPSystem" element={<Dashboard />} />
+                    <Route exact path="/" element={<RedirectToHomepage />} />
+                    <Route path="/React-ERPSystem" element={<Dashboard />} />
                     <Route path="/products" element={<ProductsManagement />} />
                     <Route path="/orders" element={<OrdersManagement />} />
                     <Route path="/calendar" element={<OrdersCalendar />} />
