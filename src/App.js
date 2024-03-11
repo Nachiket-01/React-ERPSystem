@@ -13,7 +13,7 @@ const App = () => {
             <div>
                 <nav>
                     <ul>
-                        <li><Link to="/">Dashboard</Link></li>
+                        <li><Link to="/React-ERPSystem">Dashboard</Link></li>
                         <li><Link to="/products">Manage Products</Link></li>
                         <li><Link to="/orders">Manage Orders</Link></li>
                         <li><Link to="/calendar">Orders Calendar</Link></li> 
