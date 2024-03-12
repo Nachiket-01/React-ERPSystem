@@ -2,6 +2,8 @@
 
 🚀 Welcome to the ERP System Frontend with React! This project provides a simplified interface for managing business operations efficiently.
 
+### Visit Our Page :
+
 ## 📝 Project Overview
 
 The ERP system consists of the following pages:
@@ -82,15 +84,4 @@ Include screenshots demonstrating the functionalities and UI of each page.
 The project is hosted on GitHub: 
 ### https://github.com/Nachiket-01/React-ERPSystem
 
-## 🏆 Evaluation Criteria
 
-Candidates will be evaluated based on:
-
-- **Functionality:** Does the application fulfill all requirements including optional features?
-- **User Interface:** Is the UI aesthetically pleasing, user-friendly, and responsive?
-- **Code Quality:** Is the code well-structured, maintainable, and easy to understand?
-- **Documentation:** Is the provided documentation clear and sufficient for users to interact with the application?
-
-## 🎉 Conclusion
-
-This ERP system frontend provides a simplified interface for managing business operations efficiently. With its intuitive design and functionalities, it aims to enhance the user experience in handling products and orders effectively.
