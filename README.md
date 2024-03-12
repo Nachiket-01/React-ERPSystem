@@ -144,7 +144,9 @@ Include screenshots demonstrating the functionalities and UI of each page.
 
 
 
-## Below ScreenShort From Phones (Our ERP System is designed to be fully compatible with both PCs and phones, offering a seamless user experience across all devices):
+## Below ScreenShort From Phones** 
+
+**(Our ERP System is designed to be fully compatible with both PCs and phones, offering a seamless user experience across all devices):**
 
 
 
@@ -191,7 +193,7 @@ If you have any questions, feedback, or suggestions, please feel free to reach o
 
 ---
 
-**Name:** Nachiket Shinde  
+**Name:** **Nachiket Shinde**  
 **Email:** nachiketshinde2001@gmail.com  
 **Phone:** 9960096257  
 **GitHub:** [Nachiket-01](https://github.com/Nachiket-01)  
