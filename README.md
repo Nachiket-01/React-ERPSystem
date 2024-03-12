@@ -79,6 +79,36 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Include screenshots demonstrating the functionalities and UI of each page.
 
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/94075c29-e830-4ecb-b3de-97e7fd6f83a9)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/b441357b-f43b-4b72-b096-aabd4a410b72)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/7ae1739b-9dea-4682-b86f-b20efdea9f0d)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/2d432b98-bfdb-4a18-beb6-34bb075f4159)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/0f1c2166-5841-41ed-8bc5-eff7208596b1)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/07e118c3-497d-40d4-9663-abc6c1f0d90e)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/a1a1a344-2369-4c39-8dc6-359ed58ef8f7)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/8d3df869-1658-4d4c-9b23-dbed2cca09f2)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/0f06ba5a-05bd-4796-aa8e-ee141a1add41)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/c4d73292-c9fe-4d63-9991-f5b07db49b7d)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/6d4dd900-6ebe-48be-8c59-b81c6ae81925)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/6ae4f2fe-8cce-4ff8-8172-a2af86465c7b)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/c5085f30-755e-4d48-89e4-a46d98193e3e)
+
+![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/3aee5a6a-b254-494a-b299-36be14aab5bb)
+
+
+
 ### Repository:
 
 The project is hosted on GitHub: 
