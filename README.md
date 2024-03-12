@@ -48,21 +48,21 @@ The ERP system consists of the following pages:
 
 1. Clone the repository from GitHub:
 
-## git clone 
+**git clone https://github.com/Nachiket-01/React-ERPSystem.git**
 
 2. Navigate to the project directory:
 
-## cd erp-system-react
+**cd erp-system-react**
 
 3. Install dependencies:
    
-## npm install react react-router-dom
+**npm install react react-router-dom**
 
 ### Running the Application:
 
 To start the development server:
 
-## npm start
+**npm start**
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
