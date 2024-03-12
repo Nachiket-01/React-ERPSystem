@@ -89,26 +89,41 @@ Include screenshots demonstrating the functionalities and UI of each page.
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/b441357b-f43b-4b72-b096-aabd4a410b72)
 
 
-**Update Products Details and Delete Product:**
+**Add Product:**
 
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/7ae1739b-9dea-4682-b86f-b20efdea9f0d)
 
 
-**Orders Management:** 
+**Update Products Details and Delete Product:** 
 
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/2d432b98-bfdb-4a18-beb6-34bb075f4159)
 
 
-**Showing Order Details and Update Order Status:** 
+**Orders Management:** 
 
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/0f1c2166-5841-41ed-8bc5-eff7208596b1)
 
+
+**Showing Order Details and Update Order Status**
+
+
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/07e118c3-497d-40d4-9663-abc6c1f0d90e)
+
+
+**Orders Calendar View:**
+
 
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/a1a1a344-2369-4c39-8dc6-359ed58ef8f7)
 
+
+**Showing Orders Details By Date:**
+
+
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/8d3df869-1658-4d4c-9b23-dbed2cca09f2)
 
+
+
+**Dashboard View in Phones:**
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/0f06ba5a-05bd-4796-aa8e-ee141a1add41)
 
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/c4d73292-c9fe-4d63-9991-f5b07db49b7d)
