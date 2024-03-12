@@ -89,11 +89,17 @@ Include screenshots demonstrating the functionalities and UI of each page.
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/b441357b-f43b-4b72-b096-aabd4a410b72)
 
 
-**Orders Management:**
+**Update Products Details and Delete Product:**
 
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/7ae1739b-9dea-4682-b86f-b20efdea9f0d)
 
+
+**Orders Management:** 
+
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/2d432b98-bfdb-4a18-beb6-34bb075f4159)
+
+
+**Showing Order Details and Update Order Status:** 
 
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/0f1c2166-5841-41ed-8bc5-eff7208596b1)
 
