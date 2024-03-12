@@ -6,6 +6,14 @@ const OrdersManagement = () => {
     const mockOrders = [
         { id: 1, customerName: 'John Doe', orderDate: '2024-03-10', status: 'Pending' },
         { id: 2, customerName: 'Jane Smith', orderDate: '2024-03-11', status: 'Shipped' },
+        { id: 3, customerName: 'David Wilson', orderDate: '2024-03-12', status: 'Delivered' },
+        // { id: 4, customerName: 'Alice Johnson', orderDate: '2024-03-13', status: 'Pending' },
+        // { id: 5, customerName: 'Michael Davis', orderDate: '2024-03-14', status: 'Shipped' },
+        // { id: 6, customerName: 'Sophia Miller', orderDate: '2024-03-15', status: 'Delivered' },
+        // { id: 7, customerName: 'Robert Johnson', orderDate: '2024-03-16', status: 'Pending' },
+        // { id: 8, customerName: 'Olivia Moore', orderDate: '2024-03-17', status: 'Shipped' },
+        // { id: 9, customerName: 'James Taylor', orderDate: '2024-03-18', status: 'Delivered' },
+        // { id: 10, customerName: 'Ajay Kumar', orderDate: '2024-03-19', status: 'Pending' },
         // Add more orders as needed
     ];
 
@@ -70,8 +78,8 @@ const OrdersManagement = () => {
                     <p><strong>Order Date:</strong> {selectedOrder.orderDate}</p>
                     <p><strong>Status:</strong> {selectedOrder.status}</p>
                     <input type="text" value={newStatus} onChange={(e) => setNewStatus(e.target.value)} placeholder="New Status" />
-                    <button onClick={updateOrderStatus}>Update Status</button>
-                    <button onClick={() => setSelectedOrder(null)}>Close</button>
+                    <button className="add-product-btn" onClick={updateOrderStatus}>Update Status</button>
+                    <button className="add-product-btn"  onClick={() => setSelectedOrder(null)}>Close</button>
                 </div>
             )}
         </div>

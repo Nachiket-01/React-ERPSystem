@@ -28,7 +28,7 @@ const Dashboard = () => {
             <div className="actions-container">
                 <Link to="/products" className="action-link">Manage Products</Link>
                 <Link to="/orders" className="action-link">Manage Orders</Link>
-                <Link to="/customers" className="action-link">Manage Customers</Link>
+                {/* <Link to="/customers" className="action-link">Manage Customers</Link> */}
                 <Link to="/calendar" className="action-link">Sales Analytics</Link>
                 {/* <Link to="/users" className="action-link">User Management</Link> */}
                 {/* <Link to="/inventory" className="action-link">Inventory Management</Link> */}

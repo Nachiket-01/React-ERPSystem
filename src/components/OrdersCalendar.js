@@ -6,17 +6,17 @@ const OrdersCalendar = () => {
     const orders = [
         { date: '2024-03-10', details: [
             { orderId: 1, customerName: 'John Doe', orderDate: 'March 10, 2024', status: 'Pending' },
-            { orderId: 2, customerName: 'Jane Smith', orderDate: 'March 10, 2024', status: 'Shipped' },
-            { orderId: 3, customerName: 'Alice Johnson', orderDate: 'March 10, 2024', status: 'Delivered' },
-            { orderId: 4, customerName: 'Bob Williams', orderDate: 'March 10, 2024', status: 'Pending' },
-            { orderId: 5, customerName: 'Eva Brown', orderDate: 'March 10, 2024', status: 'Shipped' }
+            { orderId: 2, customerName: 'Sunita Patel', orderDate: 'March 10, 2024', status: 'Shipped' },
+            { orderId: 3, customerName: 'Priya Singh', orderDate: 'March 10, 2024', status: 'Delivered' },
+            { orderId: 4, customerName: 'Robert Johnson', orderDate: 'March 10, 2024', status: 'Pending' },
+            { orderId: 5, customerName: 'Anjali Sharma', orderDate: 'March 10, 2024', status: 'Shipped' }
         ] },
         { date: '2024-03-11', details: [
-            { orderId: 6, customerName: 'Michael Davis', orderDate: 'March 11, 2024', status: 'Delivered' },
-            { orderId: 7, customerName: 'Sophia Miller', orderDate: 'March 11, 2024', status: 'Pending' },
+            { orderId: 6, customerName: 'Manoj Joshi', orderDate: 'March 11, 2024', status: 'Delivered' },
+            { orderId: 7, customerName: 'Sarah Miller', orderDate: 'March 11, 2024', status: 'Pending' },
             { orderId: 8, customerName: 'David Wilson', orderDate: 'March 11, 2024', status: 'Shipped' },
             { orderId: 9, customerName: 'Olivia Moore', orderDate: 'March 11, 2024', status: 'Delivered' },
-            { orderId: 10, customerName: 'James Taylor', orderDate: 'March 11, 2024', status: 'Pending' }
+            { orderId: 10, customerName: 'Ajay Kumar', orderDate: 'March 11, 2024', status: 'Pending' }
         ] },
         // Add more orders for other dates as needed
     ];

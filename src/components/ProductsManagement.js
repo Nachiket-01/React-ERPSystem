@@ -4,8 +4,12 @@ import './ProductsManagement.css'; // Import the CSS file for styling
 const ProductsManagement = () => {
     // Mock data for products
     const [products, setProducts] = useState([
-        { id: 1, name: "Product 1", category: "Category 1", price: "$10", stock: 100 },
-        { id: 2, name: "Product 2", category: "Category 2", price: "$20", stock: 200 },
+        { id: 1, name: "Smartphone", category: "Electronics", price: "₹35,000", stock: 50 },
+        { id: 2, name: "Laptop", category: "Electronics", price: "₹70,000", stock: 30 },
+        { id: 3, name: "Computer", category: "Electronics", price: "₹55,000", stock: 40 },
+        { id: 4, name: "Headphones", category: "Accessories", price: "₹3,000", stock: 100 },
+        { id: 5, name: "Power Bank", category: "Accessories", price: "₹2,000", stock: 80 },
+        { id: 6, name: "Wireless Mouse", category: "Accessories", price: "₹1,500", stock: 120 },
         // Add more mock data as needed
     ]);
 
