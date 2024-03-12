@@ -80,7 +80,7 @@ Include screenshots demonstrating the functionalities and UI of each page.
 ### Repository:
 
 The project is hosted on GitHub: 
-# https://github.com/Nachiket-01/React-ERPSystem
+### https://github.com/Nachiket-01/React-ERPSystem
 
 ## 🏆 Evaluation Criteria
 
