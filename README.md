@@ -9,7 +9,7 @@ The ERP system consists of the following pages:
 - **Dashboard:** Provides an overview of key metrics or features and quick navigation links to other sections.
 - **Products Management:** Allows management of product listings including adding, editing, and deleting products.
 - **Orders Management:** Facilitates viewing orders with details like order ID, customer name, order date, and status. Optionally, allows viewing order details, updating order status, and deletion of orders.
-- **Orders Calendar View (Optional):** Displays orders on their expected delivery dates in a calendar view, with the ability to view all orders due for delivery on a specific day.
+- **Orders Calendar View:** Displays orders on their expected delivery dates in a calendar view, with the ability to view all orders due for delivery on a specific day.
 
 ## 🎯 Objectives
 
@@ -32,7 +32,7 @@ The ERP system consists of the following pages:
 - Show a list of orders with details like order ID, customer name, order date, and status using mock data.
 - Optionally, allow viewing order details, updating order status, and deletion of orders.
 
-### Orders Calendar View (Optional):
+### Orders Calendar View :
 - Implement a calendar view displaying orders on their expected delivery dates.
 - Provide the ability to click on a date to view all orders due for delivery that day.
 
@@ -40,7 +40,7 @@ The ERP system consists of the following pages:
 
 - React: JavaScript library for building user interfaces.
 - React Router: Declarative routing for React applications.
-- (Optional) Any additional libraries for calendar view implementation.
+
 
 ## 📚 Documentation
 
