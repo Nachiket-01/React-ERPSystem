@@ -10,21 +10,26 @@ body {
 .dashboard-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Align content to the top */
     align-items: center;
+    padding-top: 50px; /* Adjusted padding-top */
     height: 100vh;
 }
 
-.dashboard-header {
-    margin-bottom: 30px;
-}
-
 .dashboard-title {
+    margin-top: 0; /* Remove margin-top */
     font-size: 36px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Text shadow for contrast */
     margin-bottom: 70px;
 }
+
+
+.dashboard-header {
+    margin-bottom: 30px;
+}
+
+
 
 .metrics-container {
     display: flex;

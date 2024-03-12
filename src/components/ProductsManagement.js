@@ -97,6 +97,7 @@ const ProductsManagement = () => {
 
     return (
         <div className="products-management">
+            
             <h2>Products Management</h2>
             {/* Button to show the form */}
             <button className="add-record-btn" onClick={() => setShowForm(true)}>Add Record</button>

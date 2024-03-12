@@ -8,6 +8,10 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+table button {
+    margin-right: 5px; /* Add margin-right to create space between buttons */
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -86,10 +90,15 @@ button:hover {
 
     .add-product-form input[type="text"],
     .add-product-form input[type="number"] {
+        width: calc(100% - 20px);
+        padding: 12px;
+        margin: 10px 0;
         font-size: 14px; /* Reduced font size for better mobile display */
     }
 
     .add-product-form button[type="submit"] {
+        width: calc(100% - 20px);
         padding: 12px 24px; /* Adjusted padding for better mobile display */
+        font-size: 14px; /* Reduced font size for better mobile display */
     }
 }
