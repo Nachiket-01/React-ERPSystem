@@ -79,9 +79,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Include screenshots demonstrating the functionalities and UI of each page.
 
+**Dashboard:**
+
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/94075c29-e830-4ecb-b3de-97e7fd6f83a9)
 
+
+**Products Management:**
+
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/b441357b-f43b-4b72-b096-aabd4a410b72)
+
+
+**Orders Management:**
 
 ![image](https://github.com/Nachiket-01/React-ERPSystem/assets/65771120/7ae1739b-9dea-4682-b86f-b20efdea9f0d)
 
