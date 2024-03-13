@@ -54,7 +54,7 @@ The ERP system consists of the following pages:
 
 2. Navigate to the project directory:
 
-**cd erp-system-react**
+**cd React-ERPSystem**
 
 3. Install dependencies:
    
